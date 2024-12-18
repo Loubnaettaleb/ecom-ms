@@ -1,8 +1,7 @@
 ## Description du projet ##  
 Ce projet représente le backend d'une application e-commerce distribuée. Il est structuré autour de plusieurs microservices dédiés à la gestion des clients, des produits, 
-de la facturation, ainsi qu'à une passerelle API. Ce backend repose sur une architecture orientée microservices, offrant des APIs RESTful pour garantir une meilleure scalabilité, 
-modularité et facilité de maintenance.
-##Structure du Projet##
+de la facturation, ainsi qu'à une passerelle API. Ce backend repose sur une architecture orientée microservices, offrant des APIs RESTful pour garantir une meilleure scalabilité, modularité et facilité de maintenance.
+## Structure du Projet ##
 Le projet est organisé autour de plusieurs microservices :
  - Customer Service : Microservice dédié à la gestion des clients, incluant des endpoints pour les opérations CRUD.
  - Inventory Service : Microservice chargé de la gestion des stocks et des produits.

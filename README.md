@@ -1,4 +1,4 @@
-##Description du projet##  
+## Description du projet ##  
 Ce projet représente le backend d'une application e-commerce distribuée. Il est structuré autour de plusieurs microservices dédiés à la gestion des clients, des produits, 
 de la facturation, ainsi qu'à une passerelle API. Ce backend repose sur une architecture orientée microservices, offrant des APIs RESTful pour garantir une meilleure scalabilité, 
 modularité et facilité de maintenance.
@@ -10,7 +10,7 @@ Le projet est organisé autour de plusieurs microservices :
  - Discovery Service : Service de découverte basé sur Eureka, permettant la localisation des microservices.
  - Billing Service : Microservice responsable de la gestion des factures et des articles associés.
  - Config Service : Serveur de configuration centralisé pour une gestion uniforme des paramètres.
-##Technologies utilisées##
+## Technologies utilisées ##
  - Langage : Java
  - Framework : Spring Boot
  - Base de données : H2
@@ -19,7 +19,7 @@ Le projet est organisé autour de plusieurs microservices :
  - Passerelle API : Spring Cloud Gateway
  - Configuration centralisée : Spring Cloud Config Server
  - Outil de build : Maven
-##Installation et Configuration##
+## Installation et Configuration ##
 1-Cloner le dépôt : git clone https://github.com/Loubnaettaleb/ecom-ms.git) cd microservice-app-ecom
 2-Lancer les microservices
 3-Configurer le Discovery Service
@@ -27,7 +27,7 @@ Ce projet constitue le backend d’une application e-commerce distribuée, conç
 Il intègre plusieurs services spécialisés, notamment pour la gestion des clients, des produits et de la facturation,
 tout en s’appuyant sur une passerelle API pour centraliser les communications. En exposant des APIs RESTful,
 ce backend offre une solution hautement évolutive et facile à maintenir, adaptée aux besoins d’une application moderne et scalable.
-##Execution##
+## Execution ##
 Ordre de démarrage :
   - Démarrer le Config Service.
   - Lancer le Discovery Service.

@@ -19,9 +19,9 @@ Le projet est organisé autour de plusieurs microservices :
  - Configuration centralisée : Spring Cloud Config Server
  - Outil de build : Maven
 ## Installation et Configuration ##
-1-Cloner le dépôt : git clone https://github.com/Loubnaettaleb/ecom-ms.git) cd microservice-app-ecom
-2-Lancer les microservices
-3-Configurer le Discovery Service
+1 -Cloner le dépôt : git clone https://github.com/Loubnaettaleb/ecom-ms.git) cd microservice-app-ecom
+2 -Lancer les microservices
+3 -Configurer le Discovery Service
 Ce projet constitue le backend d’une application e-commerce distribuée, conçu selon une architecture basée sur les microservices.
 Il intègre plusieurs services spécialisés, notamment pour la gestion des clients, des produits et de la facturation,
 tout en s’appuyant sur une passerelle API pour centraliser les communications. En exposant des APIs RESTful,
